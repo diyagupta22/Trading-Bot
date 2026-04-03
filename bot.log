@@ -1,0 +1,8 @@
+2026-04-03 16:01:59,124 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'price': None}
+2026-04-03 16:01:59,125 - INFO - Response: {}
+2026-04-03 16:05:33,001 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'price': None}
+2026-04-03 16:05:33,002 - INFO - Response: {}
+2026-04-03 16:23:03,099 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'price': None}
+2026-04-03 16:23:03,100 - INFO - Response: {'error': "APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-04-03 16:24:05,964 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'price': None}
+2026-04-03 16:24:05,965 - INFO - Response: {'orderId': 13020121728, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ49e004af45dced323387f6', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775213645639}
